@@ -1,8 +1,29 @@
 aid: accordance-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accordance-ai.png
 name: Accordance Ai
-description: Accordance Ai is a company surfaced as a portfolio company of menlo-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI
+  platform built for tax, audit, and accounting professionals. Founded by
+  researchers from the Stanford AI Lab, it provides a firmwide agentic AI
+  platform that performs tax research with authoritative code, context, and
+  citations, complex accounting analysis, and audit insight — with visible
+  reasoning and verifiable source citations. Accordance is SOC 2 Type II
+  certified, never trains on customer data, and is backed by Menlo Ventures,
+  Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures,
+  and New Enterprise Associates. The product surface is the Accordance
+  application (app.accordance.ai); no public developer API is currently
+  documented.
 url: https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,6 +36,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Tax
+- Accounting
+- Audit
+- Agents
+- Compliance
+- Professional Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/accordance-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/accordance-ai-domain-security.yml
+- type: Security
+  url: security/accordance-ai-vulnerability-disclosure.yml
+- type: Compliance
+  url: security/accordance-ai-trust-center.yml
+- type: TrustCenter
+  url: security/accordance-ai-trust-center.yml
+- type: SecurityTxt
+  url: well-known/accordance-ai-security.txt
+- type: WellKnown
+  url: well-known/accordance-ai-well-known.yml
 - type: Website
   url: https://accordance.com
+- type: About
+  url: https://accordance.com/company
+- type: SecurityPage
+  url: https://accordance.com/security
+- type: Customers
+  url: https://accordance.com/customers
+- type: Press
+  url: https://accordance.com/press
+- type: Education
+  url: https://accordance.com/education
+- type: SignUp
+  url: https://accordance.com/demo
+- type: Login
+  url: https://app.accordance.ai/
+- type: Support
+  url: https://accordance.com/demo
+- type: TermsOfService
+  url: https://accordance.com/legal/terms
+- type: PrivacyPolicy
+  url: https://accordance.com/legal/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

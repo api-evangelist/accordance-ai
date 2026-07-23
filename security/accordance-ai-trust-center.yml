@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: searched
+source: https://accordance.com/security
+trust_center:
+  url: https://security.accordance.com
+  name: Accordance Trust Center
+  compliance_status_dashboard: https://security.accordance.com
+certifications:
+- name: SOC 2 Type II
+  status: certified
+  evidence: https://accordance.com
+  note: Homepage states "Enterprise-grade security with SOC2 Type II certification."
+security_practices:
+- Zero-trust architecture
+- Multi-layered encryption in transit and at rest
+- Regional data residency compliance
+- Granular access controls and audit trails
+- Customer data never used for model training
+evidence:
+- source: https://accordance.com/security
+  kind: security page
+- source: https://security.accordance.com
+  kind: trust center / real-time compliance status dashboard
+- source: https://accordance.com
+  kind: homepage SOC 2 Type II statement
