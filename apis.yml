@@ -12,17 +12,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/accordance-ai.png
 name: Accordance Ai
-description: >-
-  Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI
-  platform built for tax, audit, and accounting professionals. Founded by
-  researchers from the Stanford AI Lab, it provides a firmwide agentic AI
-  platform that performs tax research with authoritative code, context, and
-  citations, complex accounting analysis, and audit insight — with visible
-  reasoning and verifiable source citations. Accordance is SOC 2 Type II
-  certified, never trains on customer data, and is backed by Menlo Ventures,
-  Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures,
-  and New Enterprise Associates. The product surface is the Accordance
-  application (app.accordance.ai); no public developer API is currently
+description: Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built
+  for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides
+  a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations,
+  complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations.
+  Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures,
+  Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates.
+  The product surface is the Accordance application (app.accordance.ai); no public developer API is currently
   documented.
 url: https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/apis.yml
 x-type: company
@@ -33,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-08-08'
 tags:
 - Company
 - Artificial Intelligence
@@ -86,8 +82,12 @@ common:
   url: https://accordance.com/legal/terms
 - type: PrivacyPolicy
   url: https://accordance.com/legal/privacy
+- type: LLMsTxt
+  url: llms/accordance-ai-llms.txt
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- accordance

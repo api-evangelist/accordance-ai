@@ -1,0 +1,22 @@
+# Accordance
+
+> Accordance (Agnetic Labs Inc.) is a San Francisco-based AI company building a frontier research platform for tax, audit, and accounting professionals. Its multi-agent AI helps CPAs and tax teams navigate regulations, conduct authoritative research, and deliver advice with visible reasoning and cited sources. Accordance is a product-led SaaS application with no public developer API at this time.
+
+## Product
+- [Accordance](https://accordance.com): Company homepage and product overview.
+- [Application / Login](https://app.accordance.com/): Sign in to the Accordance product.
+- [Request a demo](https://accordance.com/demo): Get started with a guided demo.
+- [Customers](https://accordance.com/customers): Customer stories.
+- [Education](https://accordance.com/education): Education and enablement resources.
+
+## Company
+- [Company](https://accordance.com/company): Mission, backing, and team.
+- [Press](https://accordance.com/press): Press and news.
+- [Careers](https://app.dover.com/jobs/accordance): Open roles.
+
+## Security & Legal
+- [Security](https://accordance.com/security): Security overview (SOC 2 Type II).
+- [Trust Center](https://security.accordance.com/): Real-time compliance status.
+- [security.txt](https://accordance.com/.well-known/security.txt): RFC 9116 security contact.
+- [Terms of Service](https://accordance.com/legal/terms): Legal terms.
+- [Privacy Policy](https://accordance.com/legal/privacy): Privacy policy.
